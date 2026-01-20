@@ -1,0 +1,15 @@
+@supports (display: grid) {
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+
+}
+.item {
+    padding: 20px;
+    background-color: lightcoral;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+}
+}
